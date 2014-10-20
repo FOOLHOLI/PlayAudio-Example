@@ -14,6 +14,15 @@
 		1D256B9C19F49D2500343361 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D256B9B19F49D2500343361 /* Images.xcassets */; };
 		1D256B9F19F49D2500343361 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D256B9D19F49D2500343361 /* LaunchScreen.xib */; };
 		1D256BAB19F49D2500343361 /* PlayAudioTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D256BAA19F49D2500343361 /* PlayAudioTests.m */; };
+		1D256BB519F49EC700343361 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D256BB419F49EC700343361 /* AVFoundation.framework */; };
+		1D256BBD19F49FDF00343361 /* autumn_insects5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BB619F49FDF00343361 /* autumn_insects5.mp3 */; };
+		1D256BBE19F49FDF00343361 /* Parasail.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BB719F49FDF00343361 /* Parasail.mp3 */; };
+		1D256BBF19F49FDF00343361 /* flogs_loop.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BB819F49FDF00343361 /* flogs_loop.mp3 */; };
+		1D256BC019F49FDF00343361 /* autumn_insects2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BB919F49FDF00343361 /* autumn_insects2.mp3 */; };
+		1D256BC119F49FDF00343361 /* Morning Walk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BBA19F49FDF00343361 /* Morning Walk.mp3 */; };
+		1D256BC219F49FDF00343361 /* autumn_insects1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BBB19F49FDF00343361 /* autumn_insects1.mp3 */; };
+		1D256BC319F49FDF00343361 /* rain.caf in Resources */ = {isa = PBXBuildFile; fileRef = 1D256BBC19F49FDF00343361 /* rain.caf */; };
+		1D256BC719F4A20400343361 /* SelectAudioTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D256BC619F4A20400343361 /* SelectAudioTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +49,16 @@
 		1D256BA419F49D2500343361 /* PlayAudioTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlayAudioTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D256BA919F49D2500343361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D256BAA19F49D2500343361 /* PlayAudioTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlayAudioTests.m; sourceTree = "<group>"; };
+		1D256BB419F49EC700343361 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1D256BB619F49FDF00343361 /* autumn_insects5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn_insects5.mp3; sourceTree = "<group>"; };
+		1D256BB719F49FDF00343361 /* Parasail.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Parasail.mp3; sourceTree = "<group>"; };
+		1D256BB819F49FDF00343361 /* flogs_loop.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = flogs_loop.mp3; sourceTree = "<group>"; };
+		1D256BB919F49FDF00343361 /* autumn_insects2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn_insects2.mp3; sourceTree = "<group>"; };
+		1D256BBA19F49FDF00343361 /* Morning Walk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Morning Walk.mp3"; sourceTree = "<group>"; };
+		1D256BBB19F49FDF00343361 /* autumn_insects1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = autumn_insects1.mp3; sourceTree = "<group>"; };
+		1D256BBC19F49FDF00343361 /* rain.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = rain.caf; sourceTree = "<group>"; };
+		1D256BC519F4A20400343361 /* SelectAudioTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectAudioTableViewController.h; sourceTree = "<group>"; };
+		1D256BC619F4A20400343361 /* SelectAudioTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectAudioTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D256BB519F49EC700343361 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +83,7 @@
 		1D256B8219F49D2500343361 = {
 			isa = PBXGroup;
 			children = (
+				1D256BB419F49EC700343361 /* AVFoundation.framework */,
 				1D256B8D19F49D2500343361 /* PlayAudio */,
 				1D256BA719F49D2500343361 /* PlayAudioTests */,
 				1D256B8C19F49D2500343361 /* Products */,
@@ -85,6 +106,8 @@
 				1D256B9319F49D2500343361 /* AppDelegate.m */,
 				1D256B9519F49D2500343361 /* ViewController.h */,
 				1D256B9619F49D2500343361 /* ViewController.m */,
+				1D256BC519F4A20400343361 /* SelectAudioTableViewController.h */,
+				1D256BC619F4A20400343361 /* SelectAudioTableViewController.m */,
 				1D256B9819F49D2500343361 /* Main.storyboard */,
 				1D256B9B19F49D2500343361 /* Images.xcassets */,
 				1D256B9D19F49D2500343361 /* LaunchScreen.xib */,
@@ -96,6 +119,7 @@
 		1D256B8E19F49D2500343361 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D256BC419F49FEA00343361 /* 音檔 */,
 				1D256B8F19F49D2500343361 /* Info.plist */,
 				1D256B9019F49D2500343361 /* main.m */,
 			);
@@ -117,6 +141,20 @@
 				1D256BA919F49D2500343361 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1D256BC419F49FEA00343361 /* 音檔 */ = {
+			isa = PBXGroup;
+			children = (
+				1D256BB619F49FDF00343361 /* autumn_insects5.mp3 */,
+				1D256BB719F49FDF00343361 /* Parasail.mp3 */,
+				1D256BB819F49FDF00343361 /* flogs_loop.mp3 */,
+				1D256BB919F49FDF00343361 /* autumn_insects2.mp3 */,
+				1D256BBA19F49FDF00343361 /* Morning Walk.mp3 */,
+				1D256BBB19F49FDF00343361 /* autumn_insects1.mp3 */,
+				1D256BBC19F49FDF00343361 /* rain.caf */,
+			);
+			name = "音檔";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,9 +237,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D256BBD19F49FDF00343361 /* autumn_insects5.mp3 in Resources */,
+				1D256BBE19F49FDF00343361 /* Parasail.mp3 in Resources */,
 				1D256B9A19F49D2500343361 /* Main.storyboard in Resources */,
+				1D256BC019F49FDF00343361 /* autumn_insects2.mp3 in Resources */,
 				1D256B9F19F49D2500343361 /* LaunchScreen.xib in Resources */,
+				1D256BC219F49FDF00343361 /* autumn_insects1.mp3 in Resources */,
+				1D256BBF19F49FDF00343361 /* flogs_loop.mp3 in Resources */,
 				1D256B9C19F49D2500343361 /* Images.xcassets in Resources */,
+				1D256BC319F49FDF00343361 /* rain.caf in Resources */,
+				1D256BC119F49FDF00343361 /* Morning Walk.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D256BC719F4A20400343361 /* SelectAudioTableViewController.m in Sources */,
 				1D256B9719F49D2500343361 /* ViewController.m in Sources */,
 				1D256B9419F49D2500343361 /* AppDelegate.m in Sources */,
 				1D256B9119F49D2500343361 /* main.m in Sources */,
